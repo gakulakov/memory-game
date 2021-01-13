@@ -1,0 +1,13 @@
+.mode-container {
+    background: #C4C4C4;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.round-container {
+    font-family: 'Pacifico', cursive;
+    font-size: 64px;
+    margin: 0;
+}

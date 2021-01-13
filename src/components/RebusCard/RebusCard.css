@@ -1,0 +1,49 @@
+/* .main-container {
+    padding: 20px 34px;
+    background: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.main-container:hover {
+    box-shadow: 0px 0px 4px 4px #FFFFFF;
+    transition: all ease-in-out 0.2s;
+}
+
+.main-container:active {
+   box-shadow: inset 0px 4px 6px 4px rgba(0, 0, 0, 0.25);;
+} */
+
+.flip-container {
+    perspective: 1000px;
+    display: inline-block;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.flip-container.flipped .flipper {
+    transform: rotateY(180deg);
+}
+
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.front,
+.back {
+    backface-visibility: hidden;
+}
+
+.back {
+    z-index: 2;
+    transform: rotateY(0deg);
+}
+
+.front {
+    transform: rotateY(180deg);
+}
