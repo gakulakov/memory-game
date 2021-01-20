@@ -13,7 +13,7 @@ export const initializeDeck = () => {
   let id = 0;
   const cards = [
     "react",
-    "reactu",
+    "google",
     "redux",
     "vue",
     "angular",

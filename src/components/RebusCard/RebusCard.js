@@ -2,7 +2,8 @@ import React from "react";
 import "./RebusCard.css";
 import logo from "../../assets/images/JetRuby.svg";
 
-export const RebusCard = ({
+
+const RebusCard = ({
   solved,
   clickHandler,
   flipped,
@@ -26,3 +27,5 @@ export const RebusCard = ({
     </div>
   );
 };
+
+export default RebusCard
